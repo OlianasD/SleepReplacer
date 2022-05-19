@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 19 11:38:59 CET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>127 seconds (127769 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.PasswordManagerAddEntryTest.testPasswordManagerAddEntry()'><b>testPasswordManagerAddEntry</b><br>Test class: tests.PasswordManagerAddEntryTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>1</td>
+<td>tests.PasswordManagerAddEntryTest@76b10754</td></tr>
+<tr>
+<td title='tests.PasswordManagerAddMultipleEntriesTest.testPasswordManagerAddMultipleEntries()'><b>testPasswordManagerAddMultipleEntries</b><br>Test class: tests.PasswordManagerAddMultipleEntriesTest</td>
+<td></td>
+<td>25</td>
+<td>tests.PasswordManagerAddMultipleEntriesTest@588df31b</td></tr>
+<tr>
+<td title='tests.PasswordManagerAddTagTest.testPasswordManagerAddTag()'><b>testPasswordManagerAddTag</b><br>Test class: tests.PasswordManagerAddTagTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>0</td>
+<td>tests.PasswordManagerAddTagTest@101df177</td></tr>
+<tr>
+<td title='tests.PasswordManagerAssignTagToEntryTest.testPasswordManagerAssignTagToEntry()'><b>testPasswordManagerAssignTagToEntry</b><br>Test class: tests.PasswordManagerAssignTagToEntryTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>13</td>
+<td>tests.PasswordManagerAssignTagToEntryTest@276438c9</td></tr>
+<tr>
+<td title='tests.PasswordManagerCheckEntryTagsRemovedTest.testPasswordManagerCheckEntryTagsRemoved()'><b>testPasswordManagerCheckEntryTagsRemoved</b><br>Test class: tests.PasswordManagerCheckEntryTagsRemovedTest</td>
+<td></td>
+<td>0</td>
+<td>tests.PasswordManagerCheckEntryTagsRemovedTest@70a9f84e</td></tr>
+<tr>
+<td title='tests.PasswordManagerCheckUsedTagsTest.testPasswordManagerCheckUsedTags()'><b>testPasswordManagerCheckUsedTags</b><br>Test class: tests.PasswordManagerCheckUsedTagsTest</td>
+<td></td>
+<td>11</td>
+<td>tests.PasswordManagerCheckUsedTagsTest@77a57272</td></tr>
+<tr>
+<td title='tests.PasswordManagerEditEntryTest.testPasswordManagerEditEntry()'><b>testPasswordManagerEditEntry</b><br>Test class: tests.PasswordManagerEditEntryTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>4</td>
+<td>tests.PasswordManagerEditEntryTest@3bd94634</td></tr>
+<tr>
+<td title='tests.PasswordManagerEditTagTest.testPasswordManagerEditTag()'><b>testPasswordManagerEditTag</b><br>Test class: tests.PasswordManagerEditTagTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>0</td>
+<td>tests.PasswordManagerEditTagTest@166fa74d</td></tr>
+<tr>
+<td title='tests.PasswordManagerRemoveEntryTest.testPasswordManagerRemoveEntry()'><b>testPasswordManagerRemoveEntry</b><br>Test class: tests.PasswordManagerRemoveEntryTest</td>
+<td></td>
+<td>0</td>
+<td>tests.PasswordManagerRemoveEntryTest@130f889</td></tr>
+<tr>
+<td title='tests.PasswordManagerRemoveMultipleEntriesTest.testPasswordManagerRemoveMultipleEntries()'><b>testPasswordManagerRemoveMultipleEntries</b><br>Test class: tests.PasswordManagerRemoveMultipleEntriesTest</td>
+<td></td>
+<td>5</td>
+<td>tests.PasswordManagerRemoveMultipleEntriesTest@46238e3f</td></tr>
+<tr>
+<td title='tests.PasswordManagerRemoveTagTest.testPasswordManagerRemoveTag()'><b>testPasswordManagerRemoveTag</b><br>Test class: tests.PasswordManagerRemoveTagTest</td>
+<td></td>
+<td>0</td>
+<td>tests.PasswordManagerRemoveTagTest@40f08448</td></tr>
+<tr>
+<td title='tests.PasswordManagerRemoveTagsTest.testPasswordManagerRemoveTags()'><b>testPasswordManagerRemoveTags</b><br>Test class: tests.PasswordManagerRemoveTagsTest</td>
+<td></td>
+<td>1</td>
+<td>tests.PasswordManagerRemoveTagsTest@74294adb</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchAndRemoveMultipleTagsTest.testPasswordManagerSearchAndRemoveMultipleTags()'><b>testPasswordManagerSearchAndRemoveMultipleTags</b><br>Test class: tests.PasswordManagerSearchAndRemoveMultipleTagsTest</td>
+<td></td>
+<td>8</td>
+<td>tests.PasswordManagerSearchAndRemoveMultipleTagsTest@7181ae3f</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchEntryByCommentTest.testPasswordManagerSearchEntryByComment()'><b>testPasswordManagerSearchEntryByComment</b><br>Test class: tests.PasswordManagerSearchEntryByCommentTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>2</td>
+<td>tests.PasswordManagerSearchEntryByCommentTest@2a40cd94</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchEntryByNameTest.testPasswordManagerSearchEntryByName()'><b>testPasswordManagerSearchEntryByName</b><br>Test class: tests.PasswordManagerSearchEntryByNameTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>2</td>
+<td>tests.PasswordManagerSearchEntryByNameTest@2bea5ab4</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchEntryByTagListTest.testPasswordManagerSearchEntryByTagList()'><b>testPasswordManagerSearchEntryByTagList</b><br>Test class: tests.PasswordManagerSearchEntryByTagListTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>0</td>
+<td>tests.PasswordManagerSearchEntryByTagListTest@f4168b8</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchEntryByTagsTest.testPasswordManagerSearchEntryByTags()'><b>testPasswordManagerSearchEntryByTags</b><br>Test class: tests.PasswordManagerSearchEntryByTagsTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>5</td>
+<td>tests.PasswordManagerSearchEntryByTagsTest@530612ba</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchEntryByUrlTest.testPasswordManagerSearchEntryByUrl()'><b>testPasswordManagerSearchEntryByUrl</b><br>Test class: tests.PasswordManagerSearchEntryByUrlTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>2</td>
+<td>tests.PasswordManagerSearchEntryByUrlTest@2df32bf7</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchEntryByUsernameTest.testPasswordManagerSearchEntryByUsername()'><b>testPasswordManagerSearchEntryByUsername</b><br>Test class: tests.PasswordManagerSearchEntryByUsernameTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>2</td>
+<td>tests.PasswordManagerSearchEntryByUsernameTest@3d8314f0</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchEntryNegativeTest.testPasswordManagerSearchEntryNegative()'><b>testPasswordManagerSearchEntryNegative</b><br>Test class: tests.PasswordManagerSearchEntryNegativeTest</td>
+<td></td>
+<td>2</td>
+<td>tests.PasswordManagerSearchEntryNegativeTest@1188e820</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchMultipleEntriesTest.testPasswordManagerSearchMultipleEntries()'><b>testPasswordManagerSearchMultipleEntries</b><br>Test class: tests.PasswordManagerSearchMultipleEntriesTest</td>
+<td></td>
+<td>12</td>
+<td>tests.PasswordManagerSearchMultipleEntriesTest@33b37288</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchTagNegativeTest.testPasswordManagerSearchTagNegative()'><b>testPasswordManagerSearchTagNegative</b><br>Test class: tests.PasswordManagerSearchTagNegativeTest</td>
+<td></td>
+<td>2</td>
+<td>tests.PasswordManagerSearchTagNegativeTest@2f490758</td></tr>
+<tr>
+<td title='tests.PasswordManagerSearchTagsTest.testPasswordManagerSearchTags()'><b>testPasswordManagerSearchTags</b><br>Test class: tests.PasswordManagerSearchTagsTest<br>Parameters: 3000, 127.0.0.1</td>
+<td></td>
+<td>2</td>
+<td>tests.PasswordManagerSearchTagsTest@58a90037</td></tr>
+</table><p>
+</body>
+</html>

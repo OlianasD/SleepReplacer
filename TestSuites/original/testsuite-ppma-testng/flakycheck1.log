@@ -1,0 +1,260 @@
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+f76b4464781f66b7005653f27d402381e52507ce239eb4034515c32a1b77525a
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+6287b9c80756ded67b32d7c0bcfa28c185363386521e8a3added5d9d34970730
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+ede8ae122c6e45c080950048a8cfbe5dfe9d14fb4560987b185fe6c32db07033
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+994936fbf884a22b7630940178b0cf20176556ce599450331e2c5cfb4642af48
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+d7cd71c25efa3732c5fcec54783277f46aadd63157df5c0ac50e3ef2434a1bf9
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+e0f4bf7d2c08b9f3ee90a2d62f7890edd67d714a748e3ba4613e736c0384c119
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+a413404ace3c6b0c4438e687f7204e87ce1660d446db32293af24d5fd33608f8
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+e1d47b250798a0d809ea79b1a7717b4fac420a09c0e5e342cfe2dc98db7553f5
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+9ef9e354bd8902f57f7af603c2261cb5ff51adebdd99d2d03083499d90aa89b8
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+149f331fc2b33f6e35198c45cca20718c433f5f0bcc2c4b786376f989b130a29
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+4f2732bb23e03ad41a235cbb6e73a8d47b50f35ff89105fb595ca3334a9ab39c
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+c6caf500aeed083fa799392368ba06ade3c72ca6b24f503d485f9977f176b8af
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+bc953b5a25ac6b19b87afc9d0032ff0b5080b708ad238da3fe910368736e3095
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+ec75432136179d8e7ebe5bd7d82f8bdd4ca92d11167c81ec5e4bdee0717ef65f
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+fa2637241c5addb091045e8f0f52fc1a6f3822e052feb5e2b0f9a52f5119ea77
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+59b82115aea386f428c042150b805a9bdda6e545ef85f19558701df114d26054
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+cca18c1e212d8423633808e8ce94dae72230c65cc3635eb75fe91f0dc65fe5cc
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+67e2bb25c1bed16c385d6e2faadaf0b9c855fd59327b103069dba522fdef4794
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+dec1c040bd0d0308f03f4a1ff33ab9e550bce5c8fb2654f5d7eca0e5bc89f5df
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+35a387d5c7232c34b6d490f8d510aa09a1aee2332fd528aca2a72ccfc441dd13
+
+===============================================
+Suite
+Total tests run: 23, Passes: 22, Failures: 1, Skips: 0
+===============================================
+
+ppma-0
+ppma-0

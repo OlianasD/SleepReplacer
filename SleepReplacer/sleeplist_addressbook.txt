@@ -1,0 +1,10 @@
+AddressBookAssignToMultipleGroupsTest.java:42:Thread.sleep
+AddressBookAssignToMultipleGroupsTest.java:48:Thread.sleep
+AddressBookEditMultipleGroupsTest.java:73:Thread.sleep
+AddressBookRemoveAddressBookTest.java:41:Thread.sleep
+AddressBookRemoveFromMultipleGroupsTest.java:43:Thread.sleep
+AddressBookRemoveFromMultipleGroupsTest.java:48:Thread.sleep
+AddressBookRemoveFromMultipleGroupsTest.java:53:Thread.sleep
+AddressBookRemoveMultipleAddressBookTest.java:42:Thread.sleep
+AddressBookRemoveMultipleAddressBookTest.java:49:Thread.sleep
+AddressBookRemoveMultipleAddressBookTest.java:56:Thread.sleep

@@ -1,0 +1,465 @@
+Run 0 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+a438e867df76e24f4ffc849a9a3e144f51a0f2db96bf5a371c875c457f9a410b
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 1 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+91adff8ff2287e3d854d7a545e84ba5873b6708e449bde602f69a8421a136a6a
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 2 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+6c731a592712b3864e01bd991ba2f9535b66ed78b0c0d1d13613ee400a62d132
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 3 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+9acab1da182209e593423d4bf73e7c3d73581b9f89283b3b5adbf368e4590c6d
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 4 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+3aac8ed37d1c23248ce5cb7cba9e4f9ac08dbc821fccf911ec46fc7494db69f1
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 5 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+e41e5220fcdd009a07dbe135b7bcabbb5cf1580041d5dd28195848b46f19cde2
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 6 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+a4161fe10062861eb974169418453935e4f32f424036d949519e51c0de73229e
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 7 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+492c2d24401a8aae7d053f3610b1175f256abe205bf0f682f5074cccd691997b
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 8 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+4d44023f23bfa419eaae39bb04e37bd0cc55d28112d7e585ed7d5bb505bb89eb
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 9 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+28890298819c0c142134a064c4d0da08a40b56ea4a63bae0041f75cf87ff0e68
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 10 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+9deb0c8b74d5108ad84c551c6e0835f101a6364d47d5c1cb8903bf01fd519a13
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 11 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+08f9795627b4c0186f624f06dde79a1c4d1fc0e963e96b929eb3f887aa62bdc2
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 12 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+cf2b1594884e99d96bfda6e6e99cfa9ef3a481e5f4b805ee761e8b8b9997f11a
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 13 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+c87356033431f0a36e9f8e5e632193703e70eff907332a4f7a20e01cf2a48d66
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 14 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+aedb15803943f2350d4022189a3677e58c488db5fd018539a3aebe522ac7a168
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 15 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+07f81776edb2706f0f7085a9f84326a4d7cb252e3395c60a6183559689126eeb
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 16 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+61535b7fa56d0437ecbf81f386a23114733483e317c8f4193f71b7ced8f8dcfd
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 17 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+56c644d35a044a55f8ced33b170d9e1ba9837eb59eea907eef376de772a9a87f
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 18 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+919f37a6702fe2764ed9bebec917a623f84abe2a096d4dd754fa5c25a3bddaa4
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 19 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+4511ed1592de8aecc0af40ba09bafcf229d8a5435870517a816b3bc5cd9d1c40
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 20 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+9de1d90c23edb1ffa34e2f2a8e11911aec8c5d6f6267f476e3177d32c37b1847
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 21 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+378da206f43ec4da01e442b0ed2a5ed61cbb3fa81cdbdb199556afb71df98730
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 22 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+bbc89e4c3066cde89c519223e0e155090c09cc7bdb7834620b280e7f4b11c788
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 23 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+20bb092394071d9078f73fd9e4d948fee64133be3fa7738807936133abbfdc70
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 24 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+80bb207b6b2f6bf0091fbf4aa3800a015dfedec6013d738584bf29379985dfd6
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 25 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+1b814572e378cab0733cc535172e49efa316ffb883ec2f89d5ccbcad54d42eed
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 26 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+416cb933d7054864d0a757ca1fd9386fbf37e924368b5d4c1f7f2c7188300c80
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 27 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+3b4a1a58af159dea7cc822f2e6f5d95e21e169e9dd98a118a3dac2e1be2783c9
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 28 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+22e1be7b6db8863b72166252dd7fb9ab5096b16953a90d1f5bc30128cbb19b67
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 29 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+f69a4abba191e3f8b9585bd8daacaeb48638dcd6b9a000f327dac51fc123967d
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Run 30 of 30
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+929c31e8616635da2fe692c08df8c87d6ac9bf9ffcccd5f033da194c44750109
+Host: 127.0.0.1, port: 3000, browserPort: 4445
+
+===============================================
+Suite
+Total tests run: 23, Passes: 23, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0

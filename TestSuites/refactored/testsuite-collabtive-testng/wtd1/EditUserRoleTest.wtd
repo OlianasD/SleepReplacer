@@ -1,0 +1,1 @@
+tests.AddProjectTest,tests.CloseProjectTest,tests.OpenProjectTest,tests.AddRoleTest,tests.EditRoleTest,tests.AddUserTest,tests.EditUserRoleTest

@@ -1,0 +1,1 @@
+tests.AddProjectTest,tests.EditProjectTest,tests.CloseProjectTest,tests.OpenProjectTest,tests.AddMultipleProjectsTest,tests.RemoveMultipleProjectsTest

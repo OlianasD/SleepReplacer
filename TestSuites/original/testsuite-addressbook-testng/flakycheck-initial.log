@@ -1,0 +1,403 @@
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+4a207f1f6d8fed792b3f29125f32c1a0cc12fdbbc56921285665f062dff32a4b
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+b0f4078bcdc5664e15cd7df724b0d6cf1e25ce49eec226528901a84e437a3a2b
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+c0353ff2ed1881bd1db45ff000d7767832af0ffe2a927897476f13728bd8c18e
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+552ed6138ff965c62a80087f7340c9c2ee1a2506e03403455bf6353243f8c41b
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+b2afd0b5876f2f4aefa7f852e01c2bf3baff33d89116cc11326c0088b547fb6a
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+3a3dfa395fc8b21c7dfa9cbdf12bffb6651a97aac23993e7183ce4a35cd23924
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+a3f5089003291e94f23720a772c3118f2309dd06b5588afb1fc1dfe33d1516c8
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+be102e4efbc5f564bf0e830cd6c553312ffdfe07317eb4e518d5c9fd62426991
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+18198b4fe8974d712c790a59743ab31685ab18a24711e08ff3eb1649b9168a3e
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+6c3573af8cd35e8493696af881cae1e0d37c6a40ed55e2a948bcc4d3326f4603
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+3a432b55fa4f3113f4a6e77baf4115a4d43c11034e1bd6a25c302fcf97ae3faf
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+fc925ea42dbaf03e2953b9bf7d54335be7509dbd4de0b9d99187ba4e1dc0b749
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+423d068683740c7bd7c13f7b231fbce1f92038b4effc43e92f5224b9d20cd462
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+c6daf84b1c7814b5075cb8d462651e12e6a0dace7829886badf350115fd3c1f0
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+cc83b53643399338051b3239d16681859827d366eb61ad57ffc206d137509666
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+c65485707dd34801cc4ca292275fc53a3e9dae3a72297784f1ccd2032f583764
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+f415b913e94fd0529139efa668d5641a6aaa6d7ceaf9ac8bc966a48e2705b8c6
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+c6927a839f96b084e11c758ba5c4096f13d9838466ad77a7bf0b9c5717683f65
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+0a7de59a277a750b001b5ef260741b64af123f54002e48dafe3ea6f41c652a47
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+61750f4056b3ad70172bea6803b5836e9706045258c7e209f1a2a99d5adfd7a6
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+66d1d4311809706c0bd3df8c458306a7cf81775e8fc8bbdc826ca4e4cda059ec
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+c798bde5a0e578646dac00455dd14657a1ce1e6c80fc1551885f61555961a1dc
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+543f1cc535ddfc890a045e07abd5d17e7a67d4ec27fc90f85bef78446f41b7fa
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+fca80dda1247683a9d87c72356a8ad8f670aa8a4d50a96fadf013b309fc8573a
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+e38b9c8bfab059e4904d0a59ccdb2164eb27818cd84a126afa1f25e4d08ca33c
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+5a232a8acbc6c5877cd18374b70ed7d38f1e0a40ac04f47a04cbec0271d89398
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+31aa6de5d3e1c6f263a3ad1c4f4d50551c5bb31f57a61a8a0a5c8e1fa70c178a
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+30164c4850432fa537a06245fa26930f69b659dac1498d5bdee7852a5617dd1d
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+d4e33fb4f6b68d06c6d97e5252d2d39418e1b85cd2f56a52ffd1b76ebfd8c63a
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+4d0071e2dda32fea7fa5c4cc55405877f4b2f3e5872bf78bf3729bbed2fbe35f
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: addressbook-0
+5752717a600266179b259185d618817f4aca76e2a46fc08e0e5f3e667c37bc0b
+
+===============================================
+Suite
+Total tests run: 27, Passes: 21, Failures: 6, Skips: 0
+===============================================
+
+addressbook-0
+addressbook-0

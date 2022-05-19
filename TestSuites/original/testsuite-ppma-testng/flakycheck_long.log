@@ -1,0 +1,70 @@
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+3199b7e18cd39c2958944250bc2c29ca4cc4f911771e8b96d77f708e03a5aabc
+
+===============================================
+Suite
+Total tests run: 146, Passes: 143, Failures: 3, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+b325bcc7689aa3e9522b2ddb4f080c8ae4c2f2e9aac7128ad5539429b1e80928
+
+===============================================
+Suite
+Total tests run: 146, Passes: 146, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+aecb856c53337bd782bd2d1636eec76f8a808eb315b0bd87404233ab5b156178
+
+===============================================
+Suite
+Total tests run: 146, Passes: 146, Failures: 0, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+b7926024b0801669d0af7c84625901997b4222c45790bb8a93c06529c3f286d8
+
+===============================================
+Suite
+Total tests run: 146, Passes: 133, Failures: 13, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+0b5e37e115750c58e5f15e6237a95e8a592f82ac33f8c8fbd694ad5de66edc6d
+
+===============================================
+Suite
+Total tests run: 146, Passes: 143, Failures: 3, Skips: 0
+===============================================
+
+ppma-0
+ppma-0
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: ppma-0
+927ac1e611c55ea6bea4b893905b8a267698df837760bcf29363a9bfe3fc378a

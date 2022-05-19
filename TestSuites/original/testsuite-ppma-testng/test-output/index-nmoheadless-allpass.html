@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo, myaccount@yahoo.com, password, Yahoo, Zztag, www.yahoo.com, Comment, 2)">testPasswordManagerAddEntry(Yahoo, myaccount@yahoo.com, password, Yahoo, Zztag, www.yahoo.com, Comment, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Google, myaccount@google.it, mypassword, Email, Google, www.google.it/mail, My personal email, 1)">testPasswordManagerAddEntry(Google, myaccount@google.it, mypassword, Email, Google, www.google.it/mail, My personal email, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo7, myaccount7@yahoo.com, password7, Yahoo, Zztag, www.yahoo7.com, Comment1, 9)">testPasswordManagerAddEntry(Yahoo7, myaccount7@yahoo.com, password7, Yahoo, Zztag, www.yahoo7.com, Comment1, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo4, myaccount4@yahoo.com, password4, Yahoo, Zztag, www.yahoo4.com, Comment1, 6)">testPasswordManagerAddEntry(Yahoo4, myaccount4@yahoo.com, password4, Yahoo, Zztag, www.yahoo4.com, Comment1, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo5, myaccount5@yahoo.com, password5, Yahoo, Zztag, www.yahoo5.com, Comment, 7)">testPasswordManagerAddEntry(Yahoo5, myaccount5@yahoo.com, password5, Yahoo, Zztag, www.yahoo5.com, Comment, 7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo2, myaccount2@yahoo.com, password2, Yahoo, Zztag, www.yahoo2.com, Comment, 4)">testPasswordManagerAddEntry(Yahoo2, myaccount2@yahoo.com, password2, Yahoo, Zztag, www.yahoo2.com, Comment, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo3, myaccount3@yahoo.com, password3, Yahoo, Zztag, www.yahoo3.com, Comment, 5)">testPasswordManagerAddEntry(Yahoo3, myaccount3@yahoo.com, password3, Yahoo, Zztag, www.yahoo3.com, Comment, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo1, myaccount1@yahoo.com, password1, Yahoo, Zztag, www.yahoo1.com, Comment1, 3)">testPasswordManagerAddEntry(Yahoo1, myaccount1@yahoo.com, password1, Yahoo, Zztag, www.yahoo1.com, Comment1, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAddEntry(Yahoo6, myaccount6@yahoo.com, password6, Yahoo, Zztag, www.yahoo6.com, Comment, 8)">testPasswordManagerAddEntry(Yahoo6, myaccount6@yahoo.com, password6, Yahoo, Zztag, www.yahoo6.com, Comment, 8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddMultipleEntriesTest" class="method navigator-link" hash-for-method="testPasswordManagerAddMultipleEntries">testPasswordManagerAddMultipleEntries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAddTagTest" class="method navigator-link" hash-for-method="testPasswordManagerAddTag">testPasswordManagerAddTag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerAssignTagToEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerAssignTagToEntry">testPasswordManagerAssignTagToEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerCheckEntryTagsRemovedTest" class="method navigator-link" hash-for-method="testPasswordManagerCheckEntryTagsRemoved">testPasswordManagerCheckEntryTagsRemoved</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerCheckUsedTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerCheckUsedTags">testPasswordManagerCheckUsedTags</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerEditEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerEditEntry">testPasswordManagerEditEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerEditTagTest" class="method navigator-link" hash-for-method="testPasswordManagerEditTag">testPasswordManagerEditTag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerRemoveEntryTest" class="method navigator-link" hash-for-method="testPasswordManagerRemoveEntry(9)">testPasswordManagerRemoveEntry(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerRemoveMultipleEntriesTest" class="method navigator-link" hash-for-method="testPasswordManagerRemoveMultipleEntries">testPasswordManagerRemoveMultipleEntries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerRemoveTagTest" class="method navigator-link" hash-for-method="testPasswordManagerRemoveTag">testPasswordManagerRemoveTag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerRemoveTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerRemoveTags(4)">testPasswordManagerRemoveTags(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchAndRemoveMultipleTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchAndRemoveMultipleTags">testPasswordManagerSearchAndRemoveMultipleTags</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchEntryByCommentTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchEntryByComment">testPasswordManagerSearchEntryByComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchEntryByNameTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchEntryByName">testPasswordManagerSearchEntryByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchEntryByTagListTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchEntryByTagList">testPasswordManagerSearchEntryByTagList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchEntryByTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchEntryByTags">testPasswordManagerSearchEntryByTags</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchEntryByUrlTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchEntryByUrl">testPasswordManagerSearchEntryByUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchEntryByUsernameTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchEntryByUsername">testPasswordManagerSearchEntryByUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchEntryNegativeTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchEntryNegative">testPasswordManagerSearchEntryNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchMultipleEntriesTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchMultipleEntries">testPasswordManagerSearchMultipleEntries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchTagNegativeTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchTagNegative">testPasswordManagerSearchTagNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchTags(Email)">testPasswordManagerSearchTags(Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchTags(Zztag)">testPasswordManagerSearchTags(Zztag)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchTags(Yahoo)">testPasswordManagerSearchTags(Yahoo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.PasswordManagerSearchTagsTest" class="method navigator-link" hash-for-method="testPasswordManagerSearchTags(Google)">testPasswordManagerSearchTags(Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchEntryByTagListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchEntryByTagList">
+                  </a> <!-- testPasswordManagerSearchEntryByTagList -->
+                  <span class="method-name">testPasswordManagerSearchEntryByTagList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerRemoveMultipleEntriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerRemoveMultipleEntries">
+                  </a> <!-- testPasswordManagerRemoveMultipleEntries -->
+                  <span class="method-name">testPasswordManagerRemoveMultipleEntries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchEntryByUrlTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchEntryByUrl">
+                  </a> <!-- testPasswordManagerSearchEntryByUrl -->
+                  <span class="method-name">testPasswordManagerSearchEntryByUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerAddEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo, myaccount@yahoo.com, password, Yahoo, Zztag, www.yahoo.com, Comment, 2)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo, myaccount@yahoo.com, password, Yahoo, Zztag, www.yahoo.com, Comment, 2) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo, myaccount@yahoo.com, password, Yahoo, Zztag, www.yahoo.com, Comment, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Google, myaccount@google.it, mypassword, Email, Google, www.google.it/mail, My personal email, 1)">
+                  </a> <!-- testPasswordManagerAddEntry(Google, myaccount@google.it, mypassword, Email, Google, www.google.it/mail, My personal email, 1) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Google, myaccount@google.it, mypassword, Email, Google, www.google.it/mail, My personal email, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo7, myaccount7@yahoo.com, password7, Yahoo, Zztag, www.yahoo7.com, Comment1, 9)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo7, myaccount7@yahoo.com, password7, Yahoo, Zztag, www.yahoo7.com, Comment1, 9) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo7, myaccount7@yahoo.com, password7, Yahoo, Zztag, www.yahoo7.com, Comment1, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo4, myaccount4@yahoo.com, password4, Yahoo, Zztag, www.yahoo4.com, Comment1, 6)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo4, myaccount4@yahoo.com, password4, Yahoo, Zztag, www.yahoo4.com, Comment1, 6) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo4, myaccount4@yahoo.com, password4, Yahoo, Zztag, www.yahoo4.com, Comment1, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo5, myaccount5@yahoo.com, password5, Yahoo, Zztag, www.yahoo5.com, Comment, 7)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo5, myaccount5@yahoo.com, password5, Yahoo, Zztag, www.yahoo5.com, Comment, 7) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo5, myaccount5@yahoo.com, password5, Yahoo, Zztag, www.yahoo5.com, Comment, 7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo2, myaccount2@yahoo.com, password2, Yahoo, Zztag, www.yahoo2.com, Comment, 4)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo2, myaccount2@yahoo.com, password2, Yahoo, Zztag, www.yahoo2.com, Comment, 4) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo2, myaccount2@yahoo.com, password2, Yahoo, Zztag, www.yahoo2.com, Comment, 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo3, myaccount3@yahoo.com, password3, Yahoo, Zztag, www.yahoo3.com, Comment, 5)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo3, myaccount3@yahoo.com, password3, Yahoo, Zztag, www.yahoo3.com, Comment, 5) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo3, myaccount3@yahoo.com, password3, Yahoo, Zztag, www.yahoo3.com, Comment, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo1, myaccount1@yahoo.com, password1, Yahoo, Zztag, www.yahoo1.com, Comment1, 3)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo1, myaccount1@yahoo.com, password1, Yahoo, Zztag, www.yahoo1.com, Comment1, 3) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo1, myaccount1@yahoo.com, password1, Yahoo, Zztag, www.yahoo1.com, Comment1, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddEntry(Yahoo6, myaccount6@yahoo.com, password6, Yahoo, Zztag, www.yahoo6.com, Comment, 8)">
+                  </a> <!-- testPasswordManagerAddEntry(Yahoo6, myaccount6@yahoo.com, password6, Yahoo, Zztag, www.yahoo6.com, Comment, 8) -->
+                  <span class="method-name">testPasswordManagerAddEntry</span>
+                  <span class="parameters">(Yahoo6, myaccount6@yahoo.com, password6, Yahoo, Zztag, www.yahoo6.com, Comment, 8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchEntryByCommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchEntryByComment">
+                  </a> <!-- testPasswordManagerSearchEntryByComment -->
+                  <span class="method-name">testPasswordManagerSearchEntryByComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerRemoveTagsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerRemoveTags(4)">
+                  </a> <!-- testPasswordManagerRemoveTags(4) -->
+                  <span class="method-name">testPasswordManagerRemoveTags</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerEditEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerEditEntry">
+                  </a> <!-- testPasswordManagerEditEntry -->
+                  <span class="method-name">testPasswordManagerEditEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchMultipleEntriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchMultipleEntries">
+                  </a> <!-- testPasswordManagerSearchMultipleEntries -->
+                  <span class="method-name">testPasswordManagerSearchMultipleEntries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchAndRemoveMultipleTagsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchAndRemoveMultipleTags">
+                  </a> <!-- testPasswordManagerSearchAndRemoveMultipleTags -->
+                  <span class="method-name">testPasswordManagerSearchAndRemoveMultipleTags</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerCheckUsedTagsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerCheckUsedTags">
+                  </a> <!-- testPasswordManagerCheckUsedTags -->
+                  <span class="method-name">testPasswordManagerCheckUsedTags</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchEntryByTagsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchEntryByTags">
+                  </a> <!-- testPasswordManagerSearchEntryByTags -->
+                  <span class="method-name">testPasswordManagerSearchEntryByTags</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchTagsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchTags(Email)">
+                  </a> <!-- testPasswordManagerSearchTags(Email) -->
+                  <span class="method-name">testPasswordManagerSearchTags</span>
+                  <span class="parameters">(Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchTags(Zztag)">
+                  </a> <!-- testPasswordManagerSearchTags(Zztag) -->
+                  <span class="method-name">testPasswordManagerSearchTags</span>
+                  <span class="parameters">(Zztag)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchTags(Yahoo)">
+                  </a> <!-- testPasswordManagerSearchTags(Yahoo) -->
+                  <span class="method-name">testPasswordManagerSearchTags</span>
+                  <span class="parameters">(Yahoo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchTags(Google)">
+                  </a> <!-- testPasswordManagerSearchTags(Google) -->
+                  <span class="method-name">testPasswordManagerSearchTags</span>
+                  <span class="parameters">(Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerAssignTagToEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAssignTagToEntry">
+                  </a> <!-- testPasswordManagerAssignTagToEntry -->
+                  <span class="method-name">testPasswordManagerAssignTagToEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerRemoveEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerRemoveEntry(9)">
+                  </a> <!-- testPasswordManagerRemoveEntry(9) -->
+                  <span class="method-name">testPasswordManagerRemoveEntry</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchEntryNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchEntryNegative">
+                  </a> <!-- testPasswordManagerSearchEntryNegative -->
+                  <span class="method-name">testPasswordManagerSearchEntryNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerCheckEntryTagsRemovedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerCheckEntryTagsRemoved">
+                  </a> <!-- testPasswordManagerCheckEntryTagsRemoved -->
+                  <span class="method-name">testPasswordManagerCheckEntryTagsRemoved</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchEntryByUsernameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchEntryByUsername">
+                  </a> <!-- testPasswordManagerSearchEntryByUsername -->
+                  <span class="method-name">testPasswordManagerSearchEntryByUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchTagNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchTagNegative">
+                  </a> <!-- testPasswordManagerSearchTagNegative -->
+                  <span class="method-name">testPasswordManagerSearchTagNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerSearchEntryByNameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerSearchEntryByName">
+                  </a> <!-- testPasswordManagerSearchEntryByName -->
+                  <span class="method-name">testPasswordManagerSearchEntryByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerAddMultipleEntriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddMultipleEntries">
+                  </a> <!-- testPasswordManagerAddMultipleEntries -->
+                  <span class="method-name">testPasswordManagerAddMultipleEntries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerAddTagTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerAddTag">
+                  </a> <!-- testPasswordManagerAddTag -->
+                  <span class="method-name">testPasswordManagerAddTag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerRemoveTagTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerRemoveTag">
+                  </a> <!-- testPasswordManagerRemoveTag -->
+                  <span class="method-name">testPasswordManagerRemoveTag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PasswordManagerEditTagTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordManagerEditTag">
+                  </a> <!-- testPasswordManagerEditTag -->
+                  <span class="method-name">testPasswordManagerEditTag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/dario/workspace/FSE19-submission-material/testsuite-ppma-testng/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;port&quot; value=&quot;3000&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.PasswordManagerAddEntryTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchEntryByNameTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchEntryByUsernameTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchEntryByUrlTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchEntryByTagsTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchEntryByCommentTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchEntryByTagListTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerEditEntryTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchTagsTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerRemoveTagsTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerCheckEntryTagsRemovedTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerRemoveEntryTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchEntryNegativeTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchTagNegativeTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerAddTagTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerEditTagTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerRemoveTagTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerAssignTagToEntryTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerAddMultipleEntriesTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchMultipleEntriesTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerCheckUsedTagsTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerSearchAndRemoveMultipleTagsTest&quot;/&gt;
+      &lt;class name=&quot;tests.PasswordManagerRemoveMultipleEntriesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (23 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPasswordManagerSearchEntryNegative')
+data.setCell(0, 2, 'tests.PasswordManagerSearchEntryNegativeTest')
+data.setCell(0, 3, 38871);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPasswordManagerSearchMultipleEntries')
+data.setCell(1, 2, 'tests.PasswordManagerSearchMultipleEntriesTest')
+data.setCell(1, 3, 33255);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPasswordManagerAddMultipleEntries')
+data.setCell(2, 2, 'tests.PasswordManagerAddMultipleEntriesTest')
+data.setCell(2, 3, 24390);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPasswordManagerAssignTagToEntry')
+data.setCell(3, 2, 'tests.PasswordManagerAssignTagToEntryTest')
+data.setCell(3, 3, 12279);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPasswordManagerRemoveEntry')
+data.setCell(4, 2, 'tests.PasswordManagerRemoveEntryTest')
+data.setCell(4, 3, 11079);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPasswordManagerCheckUsedTags')
+data.setCell(5, 2, 'tests.PasswordManagerCheckUsedTagsTest')
+data.setCell(5, 3, 10358);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPasswordManagerSearchEntryByTags')
+data.setCell(6, 2, 'tests.PasswordManagerSearchEntryByTagsTest')
+data.setCell(6, 3, 8537);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPasswordManagerSearchAndRemoveMultipleTags')
+data.setCell(7, 2, 'tests.PasswordManagerSearchAndRemoveMultipleTagsTest')
+data.setCell(7, 3, 7851);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPasswordManagerRemoveTags')
+data.setCell(8, 2, 'tests.PasswordManagerRemoveTagsTest')
+data.setCell(8, 3, 5231);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPasswordManagerEditEntry')
+data.setCell(9, 2, 'tests.PasswordManagerEditEntryTest')
+data.setCell(9, 3, 5054);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testPasswordManagerRemoveMultipleEntries')
+data.setCell(10, 2, 'tests.PasswordManagerRemoveMultipleEntriesTest')
+data.setCell(10, 3, 3794);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testPasswordManagerSearchEntryByUrl')
+data.setCell(11, 2, 'tests.PasswordManagerSearchEntryByUrlTest')
+data.setCell(11, 3, 2903);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testPasswordManagerSearchEntryByComment')
+data.setCell(12, 2, 'tests.PasswordManagerSearchEntryByCommentTest')
+data.setCell(12, 3, 2850);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testPasswordManagerSearchTagNegative')
+data.setCell(13, 2, 'tests.PasswordManagerSearchTagNegativeTest')
+data.setCell(13, 3, 2825);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testPasswordManagerSearchEntryByUsername')
+data.setCell(14, 2, 'tests.PasswordManagerSearchEntryByUsernameTest')
+data.setCell(14, 3, 2824);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testPasswordManagerSearchTags')
+data.setCell(15, 2, 'tests.PasswordManagerSearchTagsTest')
+data.setCell(15, 3, 2802);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testPasswordManagerSearchEntryByName')
+data.setCell(16, 2, 'tests.PasswordManagerSearchEntryByNameTest')
+data.setCell(16, 3, 2785);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testPasswordManagerSearchTags')
+data.setCell(17, 2, 'tests.PasswordManagerSearchTagsTest')
+data.setCell(17, 3, 2778);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testPasswordManagerSearchTags')
+data.setCell(18, 2, 'tests.PasswordManagerSearchTagsTest')
+data.setCell(18, 3, 2760);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testPasswordManagerSearchTags')
+data.setCell(19, 2, 'tests.PasswordManagerSearchTagsTest')
+data.setCell(19, 3, 2759);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testPasswordManagerAddTag')
+data.setCell(20, 2, 'tests.PasswordManagerAddTagTest')
+data.setCell(20, 3, 1843);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testPasswordManagerEditTag')
+data.setCell(21, 2, 'tests.PasswordManagerEditTagTest')
+data.setCell(21, 3, 1733);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testPasswordManagerAddEntry')
+data.setCell(22, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(22, 3, 1525);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testPasswordManagerAddEntry')
+data.setCell(23, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(23, 3, 1479);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testPasswordManagerAddEntry')
+data.setCell(24, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(24, 3, 1464);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testPasswordManagerAddEntry')
+data.setCell(25, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(25, 3, 1452);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testPasswordManagerAddEntry')
+data.setCell(26, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(26, 3, 1434);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testPasswordManagerAddEntry')
+data.setCell(27, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(27, 3, 1406);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testPasswordManagerAddEntry')
+data.setCell(28, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(28, 3, 1404);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testPasswordManagerAddEntry')
+data.setCell(29, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(29, 3, 1398);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testPasswordManagerAddEntry')
+data.setCell(30, 2, 'tests.PasswordManagerAddEntryTest')
+data.setCell(30, 3, 1375);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testPasswordManagerSearchEntryByTagList')
+data.setCell(31, 2, 'tests.PasswordManagerSearchEntryByTagListTest')
+data.setCell(31, 3, 799);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testPasswordManagerRemoveTag')
+data.setCell(32, 2, 'tests.PasswordManagerRemoveTagTest')
+data.setCell(32, 3, 661);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testPasswordManagerCheckEntryTagsRemoved')
+data.setCell(33, 2, 'tests.PasswordManagerCheckEntryTagsRemovedTest')
+data.setCell(33, 3, 514);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerAddEntryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Google, myaccount@google.it, mypassword, Email, Google, www.google.it/mail, My personal email, 1)</span>
+                <span class="method-start">753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">2358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo, myaccount@yahoo.com, password, Yahoo, Zztag, www.yahoo.com, Comment, 2)</span>
+                <span class="method-start">2681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">4207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo1, myaccount1@yahoo.com, password1, Yahoo, Zztag, www.yahoo1.com, Comment1, 3)</span>
+                <span class="method-start">4520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5984 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">6054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo2, myaccount2@yahoo.com, password2, Yahoo, Zztag, www.yahoo2.com, Comment, 4)</span>
+                <span class="method-start">6317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7796 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">7866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo3, myaccount3@yahoo.com, password3, Yahoo, Zztag, www.yahoo3.com, Comment, 5)</span>
+                <span class="method-start">8128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">9575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo4, myaccount4@yahoo.com, password4, Yahoo, Zztag, www.yahoo4.com, Comment1, 6)</span>
+                <span class="method-start">9854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">11334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo5, myaccount5@yahoo.com, password5, Yahoo, Zztag, www.yahoo5.com, Comment, 7)</span>
+                <span class="method-start">11596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">13099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo6, myaccount6@yahoo.com, password6, Yahoo, Zztag, www.yahoo6.com, Comment, 8)</span>
+                <span class="method-start">13380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">14858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddEntry(Yahoo7, myaccount7@yahoo.com, password7, Yahoo, Zztag, www.yahoo7.com, Comment1, 9)</span>
+                <span class="method-start">15133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16531 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchEntryByNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">16610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchEntryByName</span>
+                <span class="method-start">16881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19666 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchEntryByUsernameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">19734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchEntryByUsername</span>
+                <span class="method-start">20017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22841 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchEntryByUrlTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">22911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchEntryByUrl</span>
+                <span class="method-start">23201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26104 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchEntryByTagsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">26173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchEntryByTags</span>
+                <span class="method-start">26445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34982 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchEntryByCommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">35055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchEntryByComment</span>
+                <span class="method-start">35328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38179 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchEntryByTagListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">38256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchEntryByTagList</span>
+                <span class="method-start">38536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39335 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerEditEntryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">39418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerEditEntry</span>
+                <span class="method-start">39673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44727 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchTagsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">44812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchTags(Email)</span>
+                <span class="method-start">45104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">47939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchTags(Google)</span>
+                <span class="method-start">48211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">51087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchTags(Yahoo)</span>
+                <span class="method-start">51380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">54210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchTags(Zztag)</span>
+                <span class="method-start">54497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57275 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerRemoveTagsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">57346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerRemoveTags(4)</span>
+                <span class="method-start">57624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62855 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerCheckEntryTagsRemovedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">62926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerCheckEntryTagsRemoved</span>
+                <span class="method-start">63204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63718 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerRemoveEntryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">63792 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerRemoveEntry(9)</span>
+                <span class="method-start">64075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75154 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchEntryNegativeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">75232 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchEntryNegative</span>
+                <span class="method-start">75515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114386 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchTagNegativeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">114455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchTagNegative</span>
+                <span class="method-start">114731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117556 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerAddTagTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">117630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddTag</span>
+                <span class="method-start">117907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119750 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerEditTagTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">119839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerEditTag</span>
+                <span class="method-start">120121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121854 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerRemoveTagTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">121928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerRemoveTag</span>
+                <span class="method-start">122235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122896 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerAssignTagToEntryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">122981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAssignTagToEntry</span>
+                <span class="method-start">123274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135554 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerAddMultipleEntriesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">135624 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerAddMultipleEntries</span>
+                <span class="method-start">135889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160279 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchMultipleEntriesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">160347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchMultipleEntries</span>
+                <span class="method-start">160622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">193877 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerCheckUsedTagsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">193950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerCheckUsedTags</span>
+                <span class="method-start">194228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">204586 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerSearchAndRemoveMultipleTagsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">204659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerSearchAndRemoveMultipleTags</span>
+                <span class="method-start">204935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212786 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PasswordManagerRemoveMultipleEntriesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">212858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordManagerRemoveMultipleEntries</span>
+                <span class="method-start">213130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">216924 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
